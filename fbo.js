@@ -345,7 +345,7 @@ proto.bind = function() {
   }
   var gl = this.gl
   gl.bindFramebuffer(gl.FRAMEBUFFER, this.handle)
-  gl.viewport(0, 0, this._shape[0], this._shape[1])
+  // gl.viewport(0, 0, this._shape[0], this._shape[1])
 }
 
 proto.dispose = function() {
